@@ -6,6 +6,7 @@ Anul 2, Sem 1
 
 
   Relatii intre entitati:
+  
 :heavy_check_mark: Studenti - CamereCamin 1:1
 
 :heavy_check_mark: Cursuri - ZiCurs  1:M
@@ -18,21 +19,21 @@ Anul 2, Sem 1
   
 In backend:
 
-  3 controllere cu metode CRUD
+  :heavy_check_mark: 3 controllere cu metode CRUD
   
-  Metode din Linq: OrderBy, Select, Where, Join (vezi StudentiManager)
+  :heavy_check_mark: Metode din Linq: OrderBy, Select, Where, Join (vezi StudentiManager)
   
-  Repository pattern
+  :heavy_check_mark: Repository pattern
   
   
  In frontend:
  
-  Cel putin 3 componente: cursuri, dashboard, course-detail, message
+  :heavy_check_mark: Cel putin 3 componente: cursuri, dashboard, course-detail, message
   
-  Servicii pentru curs (conectat la .Net) si message
+  :heavy_check_mark: Servicii pentru curs (conectat la .Net) si message
   
-  Module pentru routing, forms, httpClient
+  :heavy_check_mark: Module pentru routing, forms, httpClient
   
-  Form
+  :heavy_check_mark: Form
   
-  Directiva 
+  :heavy_check_mark: Directiva 
