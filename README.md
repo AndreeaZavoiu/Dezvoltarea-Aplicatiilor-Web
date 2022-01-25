@@ -2,7 +2,7 @@
 Anul 2, Sem 1
 
 
-  Aplicatia mea Web vine in ajutorul studentilor care doresc sa se inscrie la Facultatea de Matematica si Informatica. Asadar, ei isi vor alege unul sau mai multe cursuri la care sa participe, fiecare curs fiind doar o data pe saptamana, pot trece pe rand prin fiecare an de facultate, se pot caza la caminul facultatii, in fiecare camera cate un singur student.
+  Aplicatia mea Web vine in ajutorul studentilor care doresc sa se inscrie la Facultatea de Matematica si Informatica. Asadar, ei isi vor alege unul sau mai multe cursuri la care sa participe, fiecare curs fiind doar o data pe saptamana, pot trece pe rand prin fiecare an de facultate, se pot caza la caminul facultatii, in fiecare camera cate un singur student.<br/>
 
 
   Relatii intre entitati:<br/>
@@ -13,7 +13,7 @@ Anul 2, Sem 1
 :heavy_check_mark: Studenti-Cursuri M:M -> Catalog
  
  
- 
+<br/><br/> 
   Am implementat:
   
 In backend:
@@ -25,7 +25,7 @@ In backend:
   :heavy_check_mark: Repository pattern
   
   
- In frontend:
+ <br/>In frontend:
  
   :heavy_check_mark: Cel putin 3 componente: cursuri, dashboard, course-detail, message
   
