@@ -20,4 +20,4 @@ In backend:
   Servicii pentru curs (conectat la .Net) si message
   Module pentru routing, forms, httpClient
   Form
-  Directiva
+  Directiva 
