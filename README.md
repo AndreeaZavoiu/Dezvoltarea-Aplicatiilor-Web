@@ -25,7 +25,7 @@ In backend:
   :heavy_check_mark: Repository pattern
   
   
- <br/>In frontend:
+ In frontend:
  
   :heavy_check_mark: Cel putin 3 componente: cursuri, dashboard, course-detail, message
   
