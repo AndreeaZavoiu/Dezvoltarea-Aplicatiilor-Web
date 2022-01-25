@@ -6,12 +6,11 @@ Anul 2, Sem 1
 
 
   Relatii intre entitati:
-  
 :heavy_check_mark: Studenti - CamereCamin 1:1
 
-Cursuri - ZiCurs  1:M
+:heavy_check_mark: Cursuri - ZiCurs  1:M
 
-Studenti-Cursuri M:M -> Catalog
+:heavy_check_mark: Studenti-Cursuri M:M -> Catalog
  
  
  
