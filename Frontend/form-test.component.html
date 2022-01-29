@@ -1,0 +1,56 @@
+<head>
+  <meta charset="UTF-8"><style data-styles="">ion-icon{visibility:hidden}.hydrated{visibility:inherit}</style>
+  <title>Formular Inscriere</title>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+</head>
+
+<body>
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+
+    <label for="first-name">Prenume: </label>
+    <input id="first-name" type="text" formControlName="firstName">
+  
+    <label for="last-name">Nume: </label>
+    <input id="last-name" type="text" formControlName="lastName">
+
+    <div formGroupName="address">
+        <h2>Adresa</h2>
+      
+        <label for="street">Strada: </label>
+        <input id="street" type="text" formControlName="street">
+      
+        <label for="city">Oras: </label>
+        <input id="city" type="text" formControlName="city">
+      
+        <label for="state">Tara: </label>
+        <input id="state" type="text" formControlName="state">
+      
+        <label for="zip">Cod Postal: </label>
+        <input id="zip" type="text" formControlName="zip">
+      </div>
+
+      
+      <!-- <div formArrayName="aliases">
+        <h2>Aliases</h2>
+        <button (click)="addAlias()" type="button">+ Add another alias</button>
+      
+        <div *ngFor="let alias of aliases.controls; let i=index">
+          <label for="alias-{{ i }}">Alias:</label>
+          <input id="alias-{{ i }}" type="text" [formControlName]="i">
+        </div>
+      </div> -->
+
+<div class="footer">
+    <p>Complete the form to enable button.</p>
+    <button type="submit" [disabled]="!profileForm.valid">Submit</button>
+    
+  
+    
+  <p>Form Status: {{ profileForm.status }}</p>
+
+  <button (click)="updateProfile()">Update Profile</button> 
+</div> 
+  </form>
+</body>
