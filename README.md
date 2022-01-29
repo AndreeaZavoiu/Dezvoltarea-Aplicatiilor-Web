@@ -29,10 +29,14 @@ In backend:
  
   :heavy_check_mark: Cel putin 3 componente: cursuri, dashboard, course-detail, message
   
-  :heavy_check_mark: Servicii pentru curs (conectat la .Net) si message
+  :heavy_check_mark: Servicii pentru curs (conectat la .Net), message, autentificare
   
   :heavy_check_mark: Module pentru routing, forms, httpClient
   
   :heavy_check_mark: Form
   
   :heavy_check_mark: Directiva 
+  
+  :heavy_check_mark: Pipe
+  
+  :heavy_check_mark: Guard 
