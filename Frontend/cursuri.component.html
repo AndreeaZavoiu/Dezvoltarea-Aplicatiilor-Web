@@ -1,0 +1,21 @@
+<h2>Cauta curs</h2>
+<ul class="cursuri">
+<li *ngFor="let curs of cursuri">
+    <a routerLink="/detail/{{curs.id}}">
+    <span class="badge">{{curs.id}}</span> {{curs.nume}}
+    </a>
+    <button class="delete" title="delete curs"
+(click)="delete(curs)">x</button>
+</li>
+</ul>
+
+<div>
+<label for="new-curs">Nume curs: </label>
+<input id="new-curs" #cursName />
+
+<button class="add-button" (click)="add(cursName.value); cursName.value=''">
+    Sugereaza curs
+</button>
+</div>
+
+<app-messages></app-messages>
